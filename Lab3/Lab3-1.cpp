@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-void sort1(int mas,int num) {
+void sort1(int* mas,int num) {
     int helpnum;
     for (int i = 0; i < num; i++)
     {
@@ -19,7 +19,7 @@ void sort1(int mas,int num) {
         cout << mas[i] << ' ';
     }
 }
-void sort2(char mas, int num) {
+void sort2(char* mas, int num) {
     int mass[int('z')+1] = {0};//подсчет кол-вa
     for (int i = 0; i < num; i++)
     {
@@ -40,7 +40,7 @@ void sort2(char mas, int num) {
         }
     }
 }
-void sort3(int arr, int size) {
+void sort3(int* arr, int size) {
     int left_size = size / 2;
     int right_size = size - left_size;
     if (size>1)

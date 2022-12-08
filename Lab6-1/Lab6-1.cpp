@@ -52,7 +52,7 @@ void checker(string str) {
             }
             else
             {
-                cout << "yeeees" << endl;
+                cout << "yesn't" << endl;
                 return;
             }
         }
@@ -64,7 +64,7 @@ void checker(string str) {
     }
     else
     {
-        cout << "скобки введены некорректно" << endl;
+        cout << "yesn't" << endl;
         return;
     }
 }
